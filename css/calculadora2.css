@@ -1,0 +1,76 @@
+div#corpo {
+    background-color: black;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    width: 280px;
+    margin-left: 20px;
+    border: 3px solid #800080;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+div#visor {
+    height:80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    text-align: right;
+    padding-right:10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    overflow: hidden;
+    background-color: #212121;
+}
+
+div#visor span{
+    background-color: #000000;
+    color: #ffffffFF;
+}
+
+div#botoes {
+    display: flex;
+    flex-wrap: wrap;
+    paddingtop: 10px;
+}
+
+div.quebralinha{
+    width: 100%;
+    height: 0;
+}
+
+div#botoes button{
+    width: 70px;
+    height: 50px;
+    background-color: #1d00a0;
+    border: 5px solid #e100ff;
+    font-size: 18px;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+div#botoes button:hover{
+    background-color: #9e5353;
+    color:aqua;
+}
+
+div#botoes button.duplo {
+    width: 140px;
+}
+
+div#botoes button.operador {
+    background-color: #ff0000;
+}
+
+div#botoes button.operador:hover {
+    background-color: purple;
+}
+
+div#botoes button.alternativo{
+    background-color: indianred;
+}
+
+div#botoes button.alternativo:hover{
+    background-color: crimson;
+}

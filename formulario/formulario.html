@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/estilos.css" />
+    <link rel="stylesheet" href="formulario.css" />
+</head>
+<body>
+    <div id="menu">
+        <div class="item">
+            <a href="../index.html">Voltar</a>
+        </div>
+    </div>
+
+    <h1>Formulário</h1>
+
+    <!-- Inicia um formulario-->
+    <form>
+        <div class="campo">
+            <label>Texto</label>
+            <input type="text" maxlength="50" name="nome" value="Já preenchido">
+        </div>
+
+        <div class="campo">
+            <label>Senha</label>
+            <input type="password" maxlength="6">
+        </div>
+
+        <div class="campo">
+            <label>Número</label>
+            <input type="number">
+        </div>
+
+        <div class="campo">
+            <label>Data</label>
+            <input type="date">
+        </div>
+
+        <div class="campo">
+            <label>Multipla escolha Checkbox</label>
+            <div>
+                <input type="checkbox" id="cor_1" name="cores" value="cor1">
+                <label for="cor_1">Cor 1</label>
+            
+                <input type="checkbox" id="cor_2" name="cores" value="cor2">
+                <label for="cor_2">Cor 2</label>
+
+                <input type="checkbox" id="cor_3" name="cores" value="cor3">
+                <label for="cor_3">Cor 3</label>
+            </div>
+        </div>
+
+        <div class="campo">
+            <label>Escolha unica Radiobox</label>
+            <div>
+                <input type="radio" id="sexom" name="sexo" value="masculino">
+                <label for="sexom">Masculino</label>
+
+                <input type="radio" id="sexof" name="sexo" value="feminino">
+                <label for="sexof">Feminino</label>
+
+                <input type="radio" id="sexob" name="sexo" value="nao binario">
+                <label for="sexob">Não Binario</label>
+            </div>
+        </div>
+    </form>
+
+</body>
+</html>
